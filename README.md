@@ -32,7 +32,7 @@ The notebook covers the following:
 
 ## 🛠️ Technologies Used
 
-- **Python 3**
+- **Python**
 - **Seaborn**
 - **Matplotlib**
 - **Pandas**
