@@ -53,6 +53,8 @@ The notebook covers the following:
 
 ✅ Strip plots with jitter for clarity
 
+-----
+
 # 🙋‍♂️ Author
 - Ayan Nandi
 
