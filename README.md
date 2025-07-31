@@ -1,44 +1,60 @@
-📊 Data Visualization with Seaborn
-This repository contains a Jupyter Notebook titled Data_Vizualization_Seaborn.ipynb, which explores Seaborn, a powerful Python library for statistical data visualization. The notebook serves as a comprehensive reference and practice file covering various plot types and customization techniques.
+# 📊 Data Visualization with Seaborn
 
-📁 File Contents
-Data_Vizualization_Seaborn.ipynb — Jupyter notebook containing:
+This repository contains a Jupyter Notebook titled **`Data_Vizualization_Seaborn.ipynb`**, which demonstrates a wide range of **Seaborn** functionalities — a Python library built on top of Matplotlib for creating informative and attractive statistical graphics.
 
--- Basic Seaborn setup and themes
+The notebook includes hands-on examples, parameter explanations, and visualizations that help in mastering Seaborn for data analysis and exploratory data visualization.
 
--- Categorical plots: barplot, boxplot, violinplot, stripplot
 
--- Distribution plots: kdeplot, histplot
+---
 
--- Matrix plots: heatmap, with annotations and custom styling
+## 📚 Contents of the Notebook
 
--- Multivariate analysis: pairplot, hue, palette, kind
+The notebook covers the following:
 
--- Plot styling: palette, linewidth, jitter, annot, meanprops, order, etc.
+### 🎨 Basic Setup
+- Seaborn themes: `sns.set()`
+- Grid styling: `"whitegrid"`, `"darkgrid"`, etc.
 
-📚 What You'll Learn
--- How to use Seaborn to visualize and explore datasets
+### 📈 Plot Types
+- **Bar Plots**: `sns.barplot()`
+- **Box Plots**: `sns.boxplot()` with options like `showmeans`, `meanprops`, `order`, `linewidth`
+- **Violin Plots**: `sns.violinplot()` with `split`, `inner`, `density_norm`
+- **Strip Plots**: `sns.stripplot()` with `jitter`
+- **Heatmaps**: `sns.heatmap()` with `annot`, `cmap`, `annot_kws`, `linewidth`, `linecolor`, etc.
+- **Pair Plots**: `sns.pairplot()` with `hue` and `kind='kde'`
 
--- Advanced customization of plots (color palettes, annotations, mean markers)
+### 🎨 Customizations
+- Color palettes: `'cool'`, `'tab20'`, `'inferno'`, `'managua_r'`, etc.
+- Jitter, KDE plots, hue splitting, axis ordering
+- Plot legends, labels, and tick visibility (`xticklabels`, `yticklabels`)
 
--- Using hue, split, jitter, and KDE to represent multivariate data
+---
 
--- How to control axes, grid style, and legend formatting
+## 🛠️ Technologies Used
 
-🛠 Libraries Used
--- Seaborn
---Matplotlib
---Pandas
+- **Python 3**
+- **Seaborn**
+- **Matplotlib**
+- **Pandas**
 
-📌 Example Plots Included
--- sns.barplot()
--- sns.boxplot()
--- sns.violinplot()
--- sns.stripplot()
--- sns.heatmap()
--- sns.pairplot()
+---
 
-Customizations with annot, meanprops, jitter, linewidth, cmap, etc.
+# 📌 Example Visualizations
 
-🧠 Author
--- Ayan Nandi
+✅ Comparative bar plots with hue
+
+✅ Box plots showing median, mean (showmeans=True)
+
+✅ KDE-based pairwise plots
+
+✅ Annotated heatmaps with customized colormaps
+
+✅ Violin plots with stick-style inner representations
+
+✅ Strip plots with jitter for clarity
+
+# 🙋‍♂️ Author
+- Ayan Nandi
+
+
+
